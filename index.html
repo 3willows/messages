@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-  </head>
-  <body>
-    <div class="row">
-      <div class="col s8 offset-s2">
-        <div class="card-panel">
-          <form id="submit">
-            <label>Enter a Secret Message</label>
-            <input id="message-input" />
-            <button class="btn">Create</button>
-          </form>
-        </div>
 
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+</head>
+
+<body>
+  <div class="entry-page">
+    <div class="col s8 offset-s2">
+      <div class="card-panel">
+        <form id="submit">
+          <label>Enter a Secret Message</label>
+          <input id="message-input" />
+          <button class="btn">Create</button>
+        </form>
         <div>
           Share this link with a friend
           <input id="link-input" />
         </div>
       </div>
     </div>
+  </div>
+  <div class="reveal-page">
+    <div class="card-panel">
+      <h3>
+        <h3>
+          <div id='revealed-message'>
+          </div>
+          <a href="http://127.0.0.1:5500/messages/index.html">
+            <button class="btn">Create your own message</button>
+          </a>
+          </form>
+    </div>
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
