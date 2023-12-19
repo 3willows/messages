@@ -13,13 +13,3 @@ label {
   padding: 5px;
   height: 8vh;
 }
-
-button {
-  font-size: 8vh;
-  color: darkblue;
-  background-color: white;
-  border: 5px solid darkblue;
-  border-radius: 25%;
-  margin: 2%;
-}
-
