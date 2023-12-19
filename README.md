@@ -7,7 +7,8 @@
 ## TO DO:-
 
 - [x] Deploy on Github pages
-- [ ] Add explanation of how it works within the webpage.
+- [ ] Add explanation of how it works within the webpage
 - [ ] Add comments within the code
+- [ ] Make mobile friendly
 
-Source: Colt Steele Modern Javscript Bootcamp.
+Source: Colt Steele Modern Javscript Bootcamp
