@@ -11,4 +11,8 @@
 - [ ] Add comments within the code
 - [ ] Make mobile friendly
 
+## ISSUES:-
+
+- Does not work on Safari browser on i-phone
+
 Source: Colt Steele Modern Javscript Bootcamp
