@@ -4,18 +4,19 @@ const revealPage = document.querySelector('.reveal-page')
 
 // elements selected on the entry page (no fragment)
 const input = document.querySelector('#message-input')
-const btn = document.querySelector('.btn')
+const createEncryp = document.querySelector('#create')
 const linkInput = document.querySelector('#link-input')
 
 // elements selected on the reveal page (yes fragment)
 const revealMessage = document.querySelector('#revealed-message')
+const createOwn = document.querySelector('#create-own')
 
 if (!`(${window.location}`.includes('#')) {
   // URL includes no fragment
   revealPage.style.display = 'none'
 
   // only encode the message when the button is clicked
-  btn.addEventListener('click', event => {
+  createEncryp.addEventListener('click', event => {
     event.preventDefault()
     const secretMessage = btoa(input.value)
     linkInput.value = `${window.location}#${secretMessage}`
@@ -28,7 +29,10 @@ if (!`(${window.location}`.includes('#')) {
   const secretMessage = url.split('#')[1]
   const plainMessage = atob(secretMessage)
 
-  console.log(plainMessage)
+  revealMessage.innerHTML = `<label style ="font-size: 8vh; line-height: 150%" > Your secret message is "${plainMessage}" <br> <label>`
 
-  revealMessage.innerHTML = `Your secret message is "${plainMessage}" <br>`
+  createOwn.addEventListener('click', event => { 
+        event.preventDefault()
+        window.location.href = '/messages/index.html';
+  })
 }

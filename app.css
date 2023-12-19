@@ -1,0 +1,40 @@
+body {
+  font-size: 5vh;
+}
+
+label {
+  font-size: inherit;
+}
+
+#message-input,
+#link-input {
+  font-size: 5vh;
+}
+
+button {
+
+  font-size: 8vh;
+  color: darkblue;
+  background-color: white;
+  border: 5px solid darkblue;
+  border-radius: 25%;
+  margin: 2%;
+}
+
+@media(min-width:800px) and (max-width:1200px) {
+  h1 {
+    color: yellow;
+  }
+}
+
+@media(min-width:1200px) {
+  h1 {
+    color: green;
+  }
+}
+
+@media(orientation:landscape) {
+  h1 {
+    background-color: blue;
+  }
+}

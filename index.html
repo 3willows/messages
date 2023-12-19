@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
         <form id="submit">
           <label>Enter a Secret Message</label>
           <input id="message-input" />
-          <button class="btn">Create</button>
+          <button class="custom-btn" id = "create">Create</button>
         </form>
         <div>
           Share this link with a friend
@@ -27,8 +28,7 @@
         <h3>
           <div id='revealed-message'>
           </div>
-          <a href="/index.html">
-            <button class="btn">Create your own message</button>
+            <button class="custom-btn" id ="create-own">Create your own message</button>
           </a>
           </form>
     </div>
