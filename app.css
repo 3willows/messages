@@ -9,10 +9,12 @@ label {
 #message-input,
 #link-input {
   font-size: 5vh;
+  line-height: 150%;
+  padding: 5px;
+  height: 8vh;
 }
 
 button {
-
   font-size: 8vh;
   color: darkblue;
   background-color: white;
