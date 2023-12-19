@@ -7,9 +7,11 @@
 ## TO DO:-
 
 - [x] Deploy on Github pages
-- [ ] Add explanation of how it works within the webpage
+- [x] Make mobile friendly
+- [x] Fix the margin between elements
+- [ ] Refactor with Bootstrap/better use of Materialize
 - [ ] Add comments within the code
-- [ ] Make mobile friendly
+- [ ] Add explanation of how it works within the webpage
 
 ## ISSUES:-
 
