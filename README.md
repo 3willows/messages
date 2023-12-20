@@ -14,8 +14,9 @@
 - [ ] Add explanation of how it works within the webpage
 - [ ] Use contenteditable and javascript to replace the input element with a responsive textbox element
 
-## ISSUES:-
 
-- Does not work on Safari browser on i-phone (fixed)
+## RETURN TO INDEX
+
+[Click here](https://github.com/3willows/projectsIndex)
 
 Source: Colt Steele Modern Javscript Bootcamp
