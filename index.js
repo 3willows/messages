@@ -29,7 +29,7 @@ if (!`(${window.location}`.includes('#')) {
   const secretMessage = url.split('#')[1]
   const plainMessage = atob(secretMessage)
 
-  revealMessage.innerHTML = `<label style ="font-size: 8vh; line-height: 150%" > Your secret message is "${plainMessage}" <br> <label>`
+  revealMessage.innerHTML = `<label style ="font-size: 8vh; line-height: 150%" > The secret message is "${plainMessage}" <br> <label>`
 
   createOwn.addEventListener('click', event => { 
         event.preventDefault()
