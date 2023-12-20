@@ -13,18 +13,22 @@
   <div class="container entry-page">
     <div class="entry-page-top container">
       <div class="col s8 offset-s2">
-        <div class="card-panel">
+        <div class="card-panel mt-2">
           <form id="submit">
             <label>Enter a Secret Message</label>
-            <input id="message-input" />
+            <div class='mt-2 '>
+              <input id="message-input" class="form-control  w-100" style="min-width: 0;" />
+            </div>
         </div>
         <div class="entry-page-medium container">
-          <button type="button" class="btn btn-primary btn-lg" id="create">Create</button>
-        </form>
+          <div class="row-justify-content-left">
+            <button type="button" class="btn btn-primary btn-lg mt-3" id="create">Create</button>
+            </form>
+          </div>
         </div>
-        <div>
+        <div class="mt-2">
           Share this link with a friend
-          <input id="link-input" />
+          <div class="mt-2"> <input id="link-input" class="form-control w-100" /></div>
         </div>
       </div>
     </div>
